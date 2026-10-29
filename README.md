@@ -23,13 +23,13 @@ Selección de trabajo personal, profesional y académico. Estas fichas permiten 
 
 **Disponibilidad:** código privado. Esta ficha presenta el alcance del producto; no se incluye una demo pública.
 
-## EIGR — Requerimientos y procura de bienes
+## E.I.G.R. CONTRATISTAS S.R.L. — Sistema de procura de bienes
 
-**Contexto:** trabajo de apoyo profesional a una empresa.
+**Contexto:** sistema desarrollado para E.I.G.R. CONTRATISTAS S.R.L.
 
 **Problema:** organizar los requerimientos de bienes y los procesos relacionados con cotizaciones y transacciones.
 
-**Mi trabajo:** desarrollo individual del backend y de la interfaz web del sistema.
+**Mi trabajo:** desarrollé el backend y la interfaz web del sistema.
 
 **Componentes desarrollados:** servicios de autenticación y usuarios, requerimientos, cotizaciones y transacciones; gateway y descubrimiento de servicios; interfaz web.
 
@@ -39,19 +39,21 @@ Selección de trabajo personal, profesional y académico. Estas fichas permiten 
 
 **Disponibilidad:** repositorios de backend y frontend privados. Se presenta únicamente una descripción general; no se incluyen datos, documentos ni pantallas internas de la empresa.
 
-## PaintBattle
+## Proyectos académicos con código público
 
-**Contexto:** juego personal en desarrollo, con intención de lanzamiento comercial en Steam.
+### API de mantenimiento de vehículos
 
-**Concepto:** juego de fiesta 3D centrado en memoria visual y pintura competitiva.
+**Contexto:** proyecto académico grupal del curso Software III, Ingeniería de Sistemas.
 
-**Mi participación:** desarrollo del proyecto personal en Unity.
+**Mi participación:** desarrollé la API como parte del equipo. El historial del repositorio conserva la autoría de los integrantes.
 
-**Tecnologías:** Unity y C#.
+**Funcionalidades:** gestión de clientes, vehículos, talleres, mecánicos, mantenimientos, órdenes de trabajo y pagos; componentes de autenticación JWT; exportación RDF y consultas SPARQL.
 
-**Disponibilidad:** código privado. El proyecto sigue en desarrollo; esta ficha no anuncia una fecha de lanzamiento ni una versión pública.
+**Herramientas:** Java 25, Spring Boot 3.5.6, Spring Data JPA, Spring Security, Auth0 java-jwt 4.5.0, MySQL, Apache Jena 4.10.0, Fuseki, Maven y Postman.
 
-## Proyecto académico con código público
+**Arquitectura:** backend por capas con controladores REST, servicios, repositorios, entidades, DTOs y mapeadores.
+
+**Código público:** [revisar la API, su estructura y documentación](https://github.com/Paull-Cas/api-mantenimiento-vehiculos). Versión de presentación con configuración por variables de entorno y ejemplos ficticios. Es una entrega académica para revisión y pruebas locales; la autorización completa de rutas está pendiente.
 
 ### Integración de usuarios y cursos
 
