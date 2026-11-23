@@ -1,6 +1,6 @@
 # Proyectos de Renzo Paull Castañeda
 
-Selección de trabajo personal, profesional y académico. Estas fichas presentan el propósito, las tecnologías y mi participación. AudiVare y los proyectos académicos incluyen enlaces al código para revisión técnica.
+Selección de trabajo personal, profesional y académico. Estas fichas presentan el propósito, las tecnologías y mi participación. AudiVare, el sistema de procura y los proyectos académicos incluyen enlaces al código para revisión técnica.
 
 ## AudiVare
 
@@ -37,7 +37,7 @@ Selección de trabajo personal, profesional y académico. Estas fichas presentan
 
 **Enfoque técnico:** distribuir responsabilidades entre servicios, centralizar el acceso mediante un gateway y conectar la interfaz con las APIs.
 
-**Disponibilidad:** repositorios de backend y frontend privados. Se presenta únicamente una descripción general; no se incluyen datos, documentos ni pantallas internas de la empresa.
+**Código para revisión:** [Backend Java y Spring Boot](https://github.com/Paull-Cas/procura-bienes-backend) · [Frontend React y TypeScript](https://github.com/Paull-Cas/procura-bienes-frontend). Copias con historial independiente y configuración mediante variables de entorno. Permiten revisar los microservicios, controladores, servicios, entidades, componentes y consumo de APIs. Los repositorios originales permanecen privados; estas copias no incluyen credenciales, datos empresariales ni configuración de producción.
 
 ## Proyectos académicos con código público
 
