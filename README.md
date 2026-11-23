@@ -1,6 +1,6 @@
 # Proyectos de Renzo Paull Castañeda
 
-Selección de trabajo personal, profesional y académico. Estas fichas permiten conocer el propósito, las tecnologías y mi participación sin publicar código de productos privados.
+Selección de trabajo personal, profesional y académico. Estas fichas presentan el propósito, las tecnologías y mi participación. AudiVare y los proyectos académicos incluyen enlaces al código para revisión técnica.
 
 ## AudiVare
 
@@ -12,16 +12,16 @@ Selección de trabajo personal, profesional y académico. Estas fichas permiten 
 
 **Funciones implementadas:**
 - Acceso con Google y autorización por empresa.
-- Registro y edición de facturas, con historial de cambios.
-- Importación de registros de compras desde archivos CSV y Excel.
+- Carga y edición de documentos por empresa, año, mes y categoría, con historial de cambios.
+- Consulta y colaboración de contadores vinculados, con permisos verificados por el backend.
 - Almacenamiento de documentos y acceso mediante enlaces firmados.
-- Gestión de pagos y detracciones.
+- Exportación PDF de consulta por periodo y tipo de documento.
 
 **Tecnologías:** TypeScript, NestJS, Fastify, Next.js, React, PostgreSQL, Drizzle y almacenamiento compatible con S3.
 
-**Enfoque técnico:** separar el acceso por empresa, validar permisos en el backend y mantener trazabilidad de los documentos. La importación de archivos no implica conexión automática con SUNAT ni emisión de comprobantes electrónicos.
+**Enfoque técnico:** separar el acceso por empresa, validar permisos en el backend y mantener trazabilidad de los documentos. El flujo actual se centra en documentos mensuales; no incluye importación Excel/SUNAT ni emisión de comprobantes electrónicos.
 
-**Disponibilidad:** código privado. Esta ficha presenta el alcance del producto; no se incluye una demo pública.
+**Código para revisión:** [AudiVare — frontend y backend](https://github.com/Paull-Cas/audivare-codigo). Copia del código con configuración privada retirada e historial independiente. El repositorio original de producción permanece privado. El README guía hacia la API, los permisos, la interfaz y el modelo de datos; no se ofrece un despliegue de prueba.
 
 ## E.I.G.R. CONTRATISTAS S.R.L. — Sistema de procura de bienes
 
